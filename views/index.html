@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web.py Forms</title>
+</head>
+<head>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand mx-5" href="#">Adolfo León Barrón</a>
+    </nav>
+</head>
+<body>
+    <br>
+    <div>
+        <form class="form-group">
+            <div class="container">
+                <div class="row mx-md-5">
+                        <label for="matricula">Matricula</label>
+                        <input type="text" class="form-control px-md-5" id="matricula">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control px-md-5" id="nombre">
+                        <label for="primap">Primer apellido</label>
+                        <input type="text" class="form-control px-md-5" id="primap">
+                        <label for="segap">Segundo apellido</label>
+                        <input type="text" class="form-control px-md-5" id="segap">
+                    <br><br>
+                    <div class="col-sm">
+                        <label for="edad">Edad</label>
+                        <input type="number" class="form-control" id="edad">
+                    </div>
+                    <div class="col-sm">
+                        <label for="nacimiento">Fecha de nacimiento</label>
+                        <input type="date" class="form-control" id="nacimiento">
+                    </div>
+                    <div class="col-sm">
+                        <label for="estado">Estado</label>
+                        <select name="Estado" id="estado" class="form-control" aria-placeholder="Estado">
+                            <option value="empty">---</option>
+                            <option value="1">Chihuahua</option>
+                            <option value="2">Hidalgo</option>
+                            <option value="3">Puebla</option>
+                            <option value="4">Veracruz</option>
+                        </select>
+                </div>
+                <div class="col-lg">
+                    <label for="estado">Sexo</label>
+                    <select name="Sexo" id="sexo" class="form-control" aria-placeholder="sexo">
+                        <option value="empty">---</option>
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                    </select><br><br>
+                </div>
+                <input type="submit" class="btn btn-outline-primary btn-lg btn-block">
+            </div>
+            
+        </form>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
